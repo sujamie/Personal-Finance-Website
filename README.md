@@ -419,7 +419,7 @@ if __name__ == '__main__':
 {% endblock %}
 ```
 現金庫存表單程式碼
-```
+```HTML
 {% extends "base.html" %} {% block content %}
 <form method="post" action="http://127.0.0.1:5000/cash">
   <div class="mb-3">
@@ -458,7 +458,7 @@ if __name__ == '__main__':
 {% endblock %}
 ```
 股票庫存表單程式碼
-```
+```HTML
 {% extends "base.html" %} {% block content %}
 <form method="post" action="http://127.0.0.1:5000/stock">
   <div class="mb-3">
